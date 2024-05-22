@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Congratulation</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<style>
+        .popoff{
+                display:flex; 
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
+                margin-top:10rem;
+                border:2px solid black;
+                height:15rem;
+                width:20rem;
+                margin-left:35rem;
+                border-bottom-right-radius:2rem;
+                border-top-left-radius:2rem;
+        }
+        .popoff i{
+                color:#730ca2;
+               font-size: 4rem;
+        }
+        .popoff h2{
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                
+        }
+        .popoff p{
+                font-size: small;
+                font-family: cursive;
+                
+        }
+        .popoff button a{
+                text-decoration: none;
+                color: black;
+                font-family: cursive;
+                
+        }
+        .popoff button {
+                height: 2rem;
+                width: 7rem;
+                border-radius: 1rem;
+                background-color: rgb(104, 16, 219);
+                border-bottom-left-radius: 0rem;
+                border-top-right-radius: 0rem;
+                transition: all 0.2s ease;
+        }
+        .popoff button:hover{
+                border: 2px solid rgb(197, 8, 14);
+                color:white;
+        }
+
+</style>
+<body style="margin: 0; padding: 0;">
+  <div class="contain">
+		<img src="img/heading-bg.jpg" style="width: 100%;">
+	</div>
+	<img style="position:absolute;margin-top:-7rem; margin-left:8rem;" src="img/logo.png">
+	<a href="index.html"><button style="position:absolute; margin-top:-3.2rem; margin-left:80%;height:3rem;width:9rem;background-color:#ffe165;border-radius:8px;"><i class="fa-solid fa-house"></i> Go Back Home</button></a>
+        <div class="popoff">
+                <div><i class="fa-solid fa-circle-check"></i></div>
+                <div><h2>Congratulation</h2></div>
+                <div><p>Enjoy Your Flight</p></div>
+                <div><button><a>Thank You.</a></button></div>
+        </div>
+        <script>
+                let tick=ScrollReveal({
+                        distance:'70px',
+                        duration:700,
+                        delay:500,
+                        reset:true
+
+                });
+                tick.reveal('.popoff',{delay:250,origin:'right'});
+                tick.reveal('i',{delay:500,origin:'top'});
+
+        </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"> 
+	<title> Online Payment-Page</title> 
+	<link rel="stylesheet" href="css/payment.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head> 
+<body> 
+	<div class="contain">
+		<img src="img/heading-bg.jpg">
+	</div>
+	<img style="position:absolute;margin-top:-5.5rem; margin-left:8rem;" src="img/logo.png">
+	<a href="index.html"><button style="position:absolute; margin-top:-3.4rem; margin-left:80%;height:3rem;width:9rem;background-color:#ffe165;border-radius:8px;"><i class="fa-solid fa-house"></i> Go Back Home</button></a>
+	<div class="container"> 
+
+		<form action="#"> 
+
+			<div class="row"> 
+
+				<div class="col" id="col">
+					 
+					<img style="width:20rem;height:26rem; margin-top: 10%;" src="img/sujit.png" style="height: 20rem; width:3rem;"> 
+				</div> 
+				<div class="col"> 
+					<h3 class="title">Payment</h3> 
+
+					<div class="inputBox"> 
+						<label for="name"> 
+							Card Accepted: 
+						</label> 
+						<img src="img/cards.png"
+							alt="credit/debit card image"> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="cardName"> 
+							Name On Card: 
+						</label> 
+						<input type="text" id="cardName"
+							placeholder="Enter card name"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="cardNum"> 
+							Credit Card Number: 
+						</label> 
+						<input type="text" id="cardNum"
+							placeholder="1111-2222-3333-4444"
+							maxlength="19" required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="">Exp Month:</label> 
+						<select name="" id=""> 
+							<option value="">Choose month</option> 
+							<option value="January">January</option> 
+							<option value="February">February</option> 
+							<option value="March">March</option> 
+							<option value="April">April</option> 
+							<option value="May">May</option> 
+							<option value="June">June</option> 
+							<option value="July">July</option> 
+							<option value="August">August</option> 
+							<option value="September">September</option> 
+							<option value="October">October</option> 
+							<option value="November">November</option> 
+							<option value="December">December</option> 
+						</select> 
+					</div> 
+
+
+					<div class="flex"> 
+						<div class="inputBox"> 
+							<label for="">Exp Year:</label> 
+							<select name="" id=""> 
+								<option value="">Choose Year</option> 
+								<option value="2023">2023</option> 
+								<option value="2024">2024</option> 
+								<option value="2025">2025</option> 
+								<option value="2026">2026</option> 
+								<option value="2027">2027</option> 
+							</select> 
+						</div> 
+
+						<div class="inputBox"> 
+							<label for="cvv">CVV</label> 
+							<input type="number" id="cvv"
+								placeholder="1234" required> 
+						</div> 
+					</div> 
+
+				</div> 
+
+			</div> 
+
+			
+		</form> 
+		<a href="congrats.html"><button style="position: absolute; padding: 8px;margin-top:14.2%;margin-left: -38%;background-color: rgb(15, 161, 15);">Proceed To Next</button></a>
+    
+	</div> 
+</body> 
+
+</html>
